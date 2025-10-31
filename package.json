@@ -1,0 +1,22 @@
+{
+  "name": "chatwithme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+     "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjun12325144/Chatify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Arjun12325144/Chatify/issues"
+  },
+  "homepage": "https://github.com/Arjun12325144/Chatify#readme"
+}

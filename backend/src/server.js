@@ -3,7 +3,7 @@ import express from 'express'
 import cookieParser from 'cookie-parser'
 import path from "path"
 import authRoutes from './routes/auth.route.js'
-import messageRoutes from './routes/auth.route.js'
+import messageRoutes from './routes/message.route.js'
 import { connectDB } from './lib/db.js'
 import {ENV} from './lib/env.js'
  
@@ -14,7 +14,7 @@ app.use(express.json()); //middleware that hepls to read data that user send
 app.use(cookieParser())
 
 app.use("/api/auth",authRoutes);
-app.use("/auth/messages",messageRoutes)
+app.use("/api/messages",messageRoutes)
 
 //make ready for deployment
 if(ENV.NODE_ENV === "production"){

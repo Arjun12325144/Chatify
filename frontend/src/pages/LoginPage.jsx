@@ -23,8 +23,8 @@ function LoginPage () {
               {/* heading text */}
               <div className='text-center mb-8'>
                 <MessageCircleIcon className='w-12 h-12 mx-auto text-slate-400 mb-4' />
-                <h2 className='text-2xl font-bold text-slate-200 mb-2'>Welcome Back</h2>
-                <p className='text-slate-400'>Login to access to your account</p>
+                <h2 className='text-3xl font-bold text-slate-200 mb-2'>Welcome Back</h2>
+                <p className='text-slate-400 font-semibold'>Login to access to your account</p>
               </div>
               {/* form */}
               <form onSubmit={handleSubmit}>

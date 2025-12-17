@@ -30,7 +30,7 @@ function ChatHeader(){
             </div>
 
             <button onClick={()=> setSelectedUser(null)}>
-                <XIcon className='w-5 h-5 text-slate-400 hover:text-slate-200 transition-colors cursor-pointer' />
+                <XIcon className='w-5 h-5 text-slate-500 hover:text-slate-300 transition-colors cursor-pointer' />
             </button>
 
         </div>
